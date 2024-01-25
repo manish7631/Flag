@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Main-Container {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: black;
+  padding-top: 40px;
+}
+marquee {
+  font-size: 35px;
+}
+.span1 {
+  color: orange;
+}
+.span3 {
+  color: green;
+}
+.Flag-Container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Flag-Main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+}
+.Flag-Box {
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  left: 200px;
+  animation: move 5s infinite;
+}
+
+.Flag-orange {
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+}
+
+.Flag-white {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wheel {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid darkblue;
+  position: absolute;
+}
+.wheel-1 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(15deg);
+}
+
+.wheel-2 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(30deg);
+}
+
+.wheel-3 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(45deg);
+}
+
+.wheel-4 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(60deg);
+}
+
+.wheel-5 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(75deg);
+}
+
+.wheel-6 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(90deg);
+}
+
+.wheel-7 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(105deg);
+}
+
+.wheel-8 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(120deg);
+}
+
+.wheel-9 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(135deg);
+}
+
+.wheel-10 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(150deg);
+}
+
+.wheel-11 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(165deg);
+}
+
+.wheel-12 {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: darkblue;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(180deg);
+}
+.Flag-green {
+  width: 100%;
+  height: 50px;
+  background-color: green;
+}
+
+@keyframes move {
+  0% {
+    transform: perspective(800px) rotateY(0deg) translatez(0px);
+  }
+  50% {
+    transform: perspective(800px) rotateY(-30deg) translatez(50px);
+  }
+  100% {
+    transform: perspective(800px) rotateY(0deg) translatez(0px);
+  }
+}
+.stand-Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stand {
+  width: 4px;
+  height: 500px;
+  background-color: rgb(141, 135, 135);
+  border-radius: 20px;
+}
+
+.bottom1 {
+  width: 200px;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: orange;
+}
+
+.bottom2 {
+  width: 300px;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+}
+
+.bottom3 {
+  width: 400px;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: green;
+}
